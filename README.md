@@ -1,2 +1,2 @@
 # Juego_concentrece
-Es un juego de destrza mental
+Es un juego de destreza mental
