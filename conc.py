@@ -47,7 +47,7 @@ if "tablero" not in st.session_state:
     inicializar_juego()
 
 # --- Interfaz de Usuario ---
-st.title("🧠 Concentrese 4x4 - Modo 2 Jugadores")
+st.title("🧠 CONCÉNTRECE HVC")
 
 # Marcador de puntuación dinámico
 col_j1, col_j2 = st.columns(2)
