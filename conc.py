@@ -52,7 +52,7 @@ st.markdown("""
     <style>
     /* Buscamos todos los botones dentro del tablero y les damos tamaño */
     div.stButton > button {
-        width: 100% !important;
+        width: 120% !important;
         height: 80px !important;      /* Hace los cuadrados más altos */
         font-size: 28px !important;    /* Hace los números y emojis más grandes */
         font-weight: bold !important;
