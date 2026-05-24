@@ -104,7 +104,7 @@ for fila in range(4):
             # Deshabilitar si ya está emparejada o si hay un error esperando resolverse
             boton_deshabilitado = True
         else:
-            label = "❓"
+            label = str(idx + 1)
             # Si hay un error en pantalla, bloqueamos el resto del tablero
             boton_deshabilitado = st.session_state.error_pendiente
 
