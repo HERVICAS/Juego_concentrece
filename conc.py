@@ -52,11 +52,16 @@ st.markdown("""
     <style>
     /* Buscamos todos los botones dentro del tablero y les damos tamaño */
     div.stButton > button {
-        width: 160px !important;
-        height: 120px !important;      /* Hace los cuadrados más altos */
-        font-size: 70px !important;    /* Hace los números y emojis más grandes */
+        width: 160px !important;       
+        height: 120px !important;      
+        border-radius: 12px !important; 
+    }
+    
+    /* 2. NUEVO: Fuerza el tamaño gigante para los números y los emojis internos */
+    div.stButton > button p {
+        font-size: 50px !important;    /* Tamaño ideal para que los emojis queden proporcionales */
         font-weight: bold !important;
-        border-radius: 12px !important; /* Bordes suavemente redondeados */
+        line-height: 120px !important; /* Centra el emoji perfectamente a lo alto del botón */
     }
     </style>
 """, unsafe_allow_html=True)
