@@ -48,6 +48,18 @@ if "tablero" not in st.session_state:
 
 # --- Interfaz de Usuario ---
 st.title("🧠 CONCÉNTRECE HVC")
+st.markdown("""
+    <style>
+    /* Buscamos todos los botones dentro del tablero y les damos tamaño */
+    div.stButton > button {
+        width: 100% !important;
+        height: 80px !important;      /* Hace los cuadrados más altos */
+        font-size: 28px !important;    /* Hace los números y emojis más grandes */
+        font-weight: bold !important;
+        border-radius: 10px !important; /* Bordes suavemente redondeados */
+    }
+    </style>
+""", unsafe_allow_allowed_html=True)
 
 # Marcador de puntuación dinámico
 col_j1, col_j2 = st.columns(2)
