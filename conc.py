@@ -54,7 +54,7 @@ st.markdown("""
     div.stButton > button {
         width: 160px !important;
         height: 120px !important;      /* Hace los cuadrados más altos */
-        font-size: 55px !important;    /* Hace los números y emojis más grandes */
+        font-size: 70px !important;    /* Hace los números y emojis más grandes */
         font-weight: bold !important;
         border-radius: 12px !important; /* Bordes suavemente redondeados */
     }
