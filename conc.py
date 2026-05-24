@@ -59,7 +59,7 @@ st.markdown("""
         border-radius: 10px !important; /* Bordes suavemente redondeados */
     }
     </style>
-""", unsafe_allow_allowed_html=True)
+""", unsafe_allow_html=True)
 
 # Marcador de puntuación dinámico
 col_j1, col_j2 = st.columns(2)
